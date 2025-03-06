@@ -1,0 +1,46 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'20'
+-sourcepath
+'C:/Users/Tiago/Documents/NetBeansProjects/EstruturaDeDados1/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Tiago/Documents/NetBeansProjects/EstruturaDeDados1/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'EstruturaDeDados1 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'EstruturaDeDados1 1.0-SNAPSHOT API'
+poo.tigas.estruturadedados1
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\src\main\java = 1740070433901
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\allclasses-index.html = 1741107527795
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\allpackages-index.html = 1741107527797
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\copy.svg = 1741107527825
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\element-list = 1741107527751
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\help-doc.html = 1741107527820
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\index-all.html = 1741107527812
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\index.html = 1741107527817
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\member-search-index.js = 1741107527802
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\module-search-index.js = 1741107527798
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\overview-tree.html = 1741107527786
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\package-search-index.js = 1741107527799
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\script.js = 1741107527824
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\search-page.js = 1741107527829
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\search.html = 1741107527815
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\search.js = 1741107527827
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\stylesheet.css = 1741107527822
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\tag-search-index.js = 1741107527803
+C:\Users\Tiago\Documents\NetBeansProjects\EstruturaDeDados1\target\reports\apidocs\type-search-index.js = 1741107527800
