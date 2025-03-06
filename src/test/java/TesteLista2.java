@@ -5,8 +5,8 @@
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import poo.tigas.estruturadedados1.ListaEncadeada;
-import poo.tigas.estruturadedados1.NoLista;
+import poo.tigas.EstaticaEncadeada.ListaEncadeada;
+import poo.tigas.EstaticaEncadeada.NoLista;
 
 /**
  *

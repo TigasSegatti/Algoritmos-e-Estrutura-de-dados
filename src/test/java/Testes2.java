@@ -5,7 +5,7 @@
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import poo.tigas.estruturadedados1.ListaEstatica;
+import poo.tigas.EstaticaEncadeada.ListaEstatica;
 
 /**
  *

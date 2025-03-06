@@ -1,4 +1,4 @@
-package poo.tigas.estruturadedados1;
+package poo.tigas.EstaticaEncadeada;
 
 /**
  *
