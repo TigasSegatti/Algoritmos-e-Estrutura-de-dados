@@ -14,6 +14,12 @@ public class NoListaDupla<T> {
     private NoListaDupla<T> proximo;
     private NoListaDupla<T> anterior;
 
+    public NoListaDupla(T info) {
+        this.info = info;
+        this.anterior = anterior;
+        this.proximo = proximo;
+    }
+
     public NoListaDupla<T> getProximo() {
         return proximo;
     }
