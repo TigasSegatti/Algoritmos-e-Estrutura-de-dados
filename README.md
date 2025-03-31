@@ -11,6 +11,4 @@ O objetivo principal é entender e praticar os conceitos de estruturas fundament
 - **Pilha**
 
 ## Tecnologias Utilizadas
-
-- **Java 8 ou superior**: Linguagem de programação utilizada para as implementações
-- **IDE recomendada**: IntelliJ IDEA / VSCode
+- **IntelliJ IDEA / VSCode**
