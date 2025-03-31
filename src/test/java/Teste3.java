@@ -52,20 +52,37 @@ public class Teste3 {
     }
 
     @Test
-    public void teste4() {
+    public void teste04() {
+        ListaDupla<Integer> lista = new ListaDupla<>();
+        lista.inserir(5);
+        lista.inserir(10);
+        lista.inserir(15);
+        lista.inserir(20);
+        lista.retirar(20);
+        NoListaDupla<Integer> no15 = lista.buscar(15);
+        NoListaDupla<Integer> no10 = lista.buscar(10);
+        NoListaDupla<Integer> no5 = lista.buscar(5);
+        assertEquals(15, no15.getInfo());
+        assertEquals(10, no10.getInfo());
+        assertEquals(5, no5.getInfo());
+        assertNull(no15.getAnterior());
+
+    }
+
+    @Test
+    public void teste05() {
         ListaDupla<Integer> lista = new ListaDupla<>();
         lista.inserir(5);
         lista.inserir(10);
         lista.inserir(15);
         lista.inserir(20);
         lista.retirar(10);
-        NoListaDupla no5 = lista.buscar(5);
-        NoListaDupla no15 = lista.buscar(15);
-        NoListaDupla no20 = lista.buscar(20);
-
-        assertEquals(15, no20.getProximo().getInfo());
+        NoListaDupla<Integer> no15 = lista.buscar(15);
+        NoListaDupla<Integer> no20 = lista.buscar(20);
+        NoListaDupla<Integer> no5 = lista.buscar(5);
         assertEquals(5, no15.getProximo().getInfo());
-        assertNull(no5.getProximo());
+        assertEquals(15, no20.getProximo().getInfo());
+        assertEquals(20, no15.getAnterior().getInfo());
     }
 
     @Test

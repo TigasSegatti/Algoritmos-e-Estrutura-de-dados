@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package ListasDuplas;
 
 /**
@@ -63,7 +59,7 @@ public class ListaDupla<T> {
             //para o nó anterior de atual.
         }
     }
-
+    
     public void exibirOrdemInversa() {
         NoListaDupla<T> atual = primeiro; // Começa do último nó
 
@@ -79,7 +75,7 @@ public class ListaDupla<T> {
             atual = atual.getAnterior();
         }
     }
-
+    
     public void liberar() {
         NoListaDupla<T> atual = primeiro;
 
