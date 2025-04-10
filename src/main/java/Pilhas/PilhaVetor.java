@@ -82,19 +82,32 @@ public class PilhaVetor<T> implements Pilha<T> {
     }
 
     public void concatenar(Pilha<T> p) {
+        PilhaVetor<T> pAux = new PilhaVetor<>(info.length);
+
         while (!p.estaVazia()) {
             this.push(p.pop());
         }
+
+        /*
+        while (!p.estaVazia()){
+        T valor= p.pop();
+        pAux.push(valor);
+        }
+        
+        while (!p.estaVazia()) {
+            this.push(pAux.pop());
+        }*/
     }
 
     public String toString() {
         String s = "";
-        for (int i = 0; i < tamanho; i++) {
-            s += info[i].toString();
-            if (i < tamanho - 1) {
-                s += ".";
+        for (int i = tamanho - 1; i >= 0; i--) {
+            s += info[i];
+            if (i != 0) {
+                s += ",";
             }
         }
+
         return s;
     }
 }

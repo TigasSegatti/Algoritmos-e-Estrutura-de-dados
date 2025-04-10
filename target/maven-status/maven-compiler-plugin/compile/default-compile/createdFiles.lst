@@ -1,8 +1,11 @@
 poo\tigas\EstaticaEncadeada\NoLista.class
+Pilhas\ListaEncadeada.class
+Pilhas\PilhaLista.class
 poo\tigas\EstaticaEncadeada\ListaEncadeada.class
 ListasDuplas\NoListaDupla.class
 ExceptionsPersonalizadas\PilhaVaziaException.class
 Pilhas\PilhaVetor.class
+Pilhas\NoLista.class
 Pilhas\Pilha.class
 ListasDuplas\ListaDupla.class
 poo\tigas\EstaticaEncadeada\ListaEstatica.class
