@@ -105,13 +105,6 @@ public class FilaVetor<T> implements Fila<T> {
         if (estaVazia()) {
             throw new RuntimeException("Fila vazia");
         }
-
-        /*
-        for(int i=-; i<tamanho;i++){
-        int indice= (indce+i)% limite;
-        resultado+= "[ "+ 
-        }
-         */
         String resultado = "[";
         for (int i = 0; i < tamanho; i++) {
             resultado += info[(inicio + i) % limite];
