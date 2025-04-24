@@ -4,6 +4,8 @@ Pilhas\PilhaLista.class
 poo\tigas\EstaticaEncadeada\ListaEncadeada.class
 ListasDuplas\NoListaDupla.class
 Pilhas\PilhaVetor.class
+ArvoreNArias\NoArvore.class
+ArvoreNArias\Arvore.class
 Filas\ListaEncadeada.class
 Arvores\NoArvoreBinaria.class
 Filas\NoLista.class
